@@ -45,6 +45,8 @@ a {color: #00F; text-decoration: none}
 a:hover {color: #F0F; text-decoration: none}
 a:active {color: #F0F; text-decoration: none}
 a:visited {color: #00F; text-decoration: none}
+a:visited:hover {color: #F0F; text-decoration: none}
+a:visited:active {color: #F0F; text-decoration: none}
 
 p {margin: 8px 4px 8px 4px}
 
@@ -56,17 +58,31 @@ td {
 	padding: 4px;
 }
 
-.header-icon, .header-icon-active {
+.header-icon {
 	display: inline-block;
 	margin: 4px;
 	text-align: center;
 }
 
-.header-icon-active {
-	filter: invert(100%);
+.header-label {
+	display: inline-block;
+	padding: 4px;
+	background: #FFF;
+	color: #000;
+	line-height: 1;
 }
 
-.header-label {
+.fileview {
+	padding: 4px;
+}
+
+.fileview-icon {
+	display: inline-block;
+	margin: 4px;
+	text-align: center;
+}
+
+.fileview-label {
 	display: inline-block;
 	padding: 4px;
 	background: #FFF;
