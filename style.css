@@ -51,7 +51,9 @@ a:visited:active {color: #F0F; text-decoration: none}
 p {margin: 8px 4px 8px 4px}
 
 td {
+	border: 1px solid #000;
 	padding: 4px;
+	text-align: center;
 }
 
 .header {
