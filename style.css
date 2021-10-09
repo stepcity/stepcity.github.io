@@ -1,3 +1,7 @@
+:root {
+	--fg-color: #000;
+}
+
 @font-face {
 	font-family: "Athene";
 	src: local("Athene"), url("fonts/Athene.ttf") format("truetype");
@@ -26,13 +30,17 @@
 	font-family: "Valencia";
 	src: local("Valencia"), url("fonts/Valencia.ttf") format("truetype");
 }
+@font-face {
+	font-family: "Cream";
+	src: local("Cream"), url("fonts/Cream.ttf") format("truetype");
+}
 
 body {
 	width: 1024px;
 	margin: 0px auto;
 	background: #4AB;
-	font-size: 12px;
-	font-family: "Torrance", sans-serif;
+	font-size: 16px;
+	font-family: "Cream", sans-serif;
 	line-height: 1.6;
 }
 
@@ -70,7 +78,7 @@ td {
 	display: inline-block;
 	padding: 4px;
 	background: #FFF;
-	color: #000;
+	color: var(--fg-color);
 	line-height: 1;
 }
 
@@ -88,7 +96,7 @@ td {
 	display: inline-block;
 	padding: 4px;
 	background: #FFF;
-	color: #000;
+	color: var(--fg-color);
 	line-height: 1;
 }
 
@@ -146,4 +154,9 @@ td {
 .valencia {
 	font-size: 12px;
 	font-family: "Valencia", sans-serif;
+}
+
+.cream {
+	font-size: 12px;
+	font-family: "Cream", sans-serif;
 }
