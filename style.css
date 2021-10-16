@@ -31,16 +31,20 @@
 	src: local("Valencia"), url("fonts/Valencia.ttf") format("truetype");
 }
 @font-face {
-	font-family: "Cream";
-	src: local("Cream"), url("fonts/Cream.ttf") format("truetype");
+	font-family: "Cream Adjacent";
+	src: local("CreamAdjacentNormal"), url("fonts/CreamAdjacentNormal.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Chicago Adjacent";
+	src: local("ChicagoAdjacentNormal"), url("fonts/ChicagoAdjacentNormal.ttf") format("truetype");
 }
 
 body {
 	width: 1024px;
 	margin: 0px auto;
 	background: #4AB;
-	font-size: 16px;
-	font-family: "Cream", sans-serif;
+	font-size: 14px;
+	font-family: "Torrance", sans-serif;
 	line-height: 1.6;
 }
 
